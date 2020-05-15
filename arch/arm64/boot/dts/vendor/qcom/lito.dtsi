@@ -3862,7 +3862,6 @@
 };
 
 #include "lito-qupv3.dtsi"
-#include "lito-coresight.dtsi"
 #include "camera/lito-camera.dtsi"
 #include "lito-audio.dtsi"
 
