@@ -2941,7 +2941,6 @@ struct related_thread_group *task_related_thread_group(struct task_struct *p)
 	return rcu_dereference(p->grp);
 }
 
-<<<<<<< HEAD
 static inline bool task_rtg_high_prio(struct task_struct *p)
 {
 	return task_in_related_thread_group(p) &&
@@ -2953,8 +2952,6 @@ static inline bool walt_low_latency_task(struct task_struct *p)
 	return sysctl_walt_low_latency_task_boost && p->low_latency;
 }
 
-=======
->>>>>>> d9711b92f4af... kernel: squashed rollback of scheduler changes
 /* Is frequency of two cpus synchronized with each other? */
 static inline int same_freq_domain(int src_cpu, int dst_cpu)
 {
